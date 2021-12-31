@@ -1,6 +1,8 @@
-    <meta charset="UTF-8">   
+    <meta charset="UTF-8">
+    {% load static %}
+    <link rel="stylesheet" href={% static 'css/index.css' %}>  
     <title>Agenda</title>
-    <div align="right">
+    <div class="logout">
         <a href="/logout">logout</a>
     </div>
     <h1>Agenda</h1>
