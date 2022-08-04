@@ -17,7 +17,7 @@ def logout_user(request):
     return redirect('/')
 
 def submit_login(request):
-    # Validaão de usuario
+    # Validação de usuario
     if request.POST:
         username = request.POST.get('username')
         password = request.POST.get('password')
